@@ -30,7 +30,7 @@ export const Add = () => {
             <p>Price:</p>
             <input type="text" name="price" onChange={handleChange}/>
             <p>Description:</p>
-            <textarea name="description" onChange={handleChange} style={{widt:"80vw"}}/>
+            <textarea name="description" onChange={handleChange} style={{width:"80vw"}}/>
             <br/>
             <Button variant="contained" onClick={handleClick}>Add</Button>
             <Link to="/">
