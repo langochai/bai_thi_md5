@@ -12,13 +12,13 @@ export const Add = () => {
             [e.target.name]: e.target.value
         })
     }
-    const handleClick = () =>{
+    const handleClick = () => {
         TourService.addTour(newTour)
-            .then((result)=>{
+            .then((result) => {
                 console.log("added")
                 navigate("/")
             })
-            .catch((err)=>{
+            .catch((err) => {
                 console.log("err")
             })
     }

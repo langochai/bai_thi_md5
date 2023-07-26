@@ -49,18 +49,18 @@ export function Home() {
                                     {index}
                                 </TableCell>
                                 <TableCell align="right">
-                                    <Link to="detail" state={{id:tour.id}}>
+                                    <Link to="detail" state={{id: tour.id}}>
                                         {tour.title}
                                     </Link>
                                 </TableCell>
                                 <TableCell align="right">{tour.price}</TableCell>
                                 <TableCell align="right">
-                                    <Link to="/update" state={{id:tour.id}}>
+                                    <Link to="/update" state={{id: tour.id}}>
                                         <Button variant="contained" color="success">Edit</Button>
                                     </Link>
                                 </TableCell>
                                 <TableCell align="right">
-                                    <Link to="/delete" state={{id:tour.id}}>
+                                    <Link to="/delete" state={{id: tour.id}}>
                                         <Button variant="contained" color="error">Delete</Button>
                                     </Link>
                                 </TableCell>
