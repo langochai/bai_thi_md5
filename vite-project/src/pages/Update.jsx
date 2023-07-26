@@ -41,8 +41,7 @@ export const Update = (props) => {
             <p>Price:</p>
             <input type="text" name="price" onChange={handleChange} value={tour.price}/>
             <p>Description:</p>
-            <textarea name="description" onChange={handleChange} value={tour.description}
-                      style={{width: "80vw"}}/>
+            <textarea name="description" onChange={handleChange} value={tour.description} style={{width:"30vw",height:"20vh"}}/>
             <br/>
             <Button variant="contained" onClick={handleClick}>Update</Button>
             <Link to="/">
